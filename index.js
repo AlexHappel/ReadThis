@@ -41,12 +41,6 @@ const questions = [
 
     {
     type: "input",
-    message: "Please enter the contribution information.",
-    name: "contributing",
-    },
-
-    {
-    type: "input",
     message: "Please add an email.",
     name: "email",
     },

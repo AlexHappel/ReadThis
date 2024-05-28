@@ -46,9 +46,9 @@ function generateMarkdown(data) {
   ${data.license === "None" ? "No license available" : `This application is covered under ${data.license}.`}
   ## Contributing
   ${data.contributing}
+  You may visit this [GitHub](https://github.com/${data.username}). to contribute to this app in any way you'd like. Just create a fork.
   ## Questions
-  If you have any questions, please send them to this [email](mailto:${data.email})
-  or you can visit this [GitHub](https://github.com/${data.username}).`
+  If you have any questions, please send them to this [email](mailto:${data.email})`
 ;
 }
 
